@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+ul {
+  list-style-type: none;
+  padding:0;
+}
+
+li {
+  margin: 10px 0;
+  padding: 2px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
