@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-  fetch("../src/scrape.php")
+  fetch("scrape.php")
     .then(response => response.json())
     .then(articles => {
       const newsList = document.getElementById("news-list");
